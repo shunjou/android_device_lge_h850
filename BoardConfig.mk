@@ -84,3 +84,6 @@ TW_EXTRA_LANGUAGES := true
 
 # Debug flags
 TWRP_INCLUDE_LOGCAT := true
+
+# Ignore LG's bootloader wipe commands
+TW_IGNORE_MISC_WIPE_DATA := true
